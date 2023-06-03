@@ -97,7 +97,8 @@ def is_leap_year(a_year):
     if a_year % 4 == 0:
         if a_year % 100 == 0 and a_year % 400 != 0:
             print("No, " + str(a_year) + " is not a leap year!")
-        print("Yes, " + str(a_year) + " is a leap year!")  
+        else:
+            print("Yes, " + str(a_year) + " is a leap year!")  
     else:
          print("No, " + str(a_year) + " is not a leap year!")
 
